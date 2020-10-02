@@ -13,3 +13,13 @@ friend_foods.append('ice cream')
 print("\n")
 print(my_foods)
 print(friend_foods)
+print("\n")
+
+# 4.12 Mais laços
+for food in my_foods:
+    print(food.title())
+
+print("\n")
+
+for friend_food in friend_foods:
+    print(friend_food.title())
