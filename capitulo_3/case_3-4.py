@@ -1,10 +1,10 @@
-# Lista de convidados
+# 3.4 Lista de convidados
 guest_list = ['Convidado A','Convidado B','Convidado C']
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[0] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[1] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[2] + "?")
 
-# Alterando a lista de convidados
+# 3.5 Alterando a lista de convidados
 print("\nO " + guest_list[1] + " não poderá comparecer ao jantar esta noite.\n")
 del guest_list[1]
 
@@ -13,7 +13,7 @@ print("Olá, gostaria de jantar comigo esta noite, " + guest_list[0] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[1] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[2] + "?")
 
-# Mais convidados
+# 3.6 Mais convidados
 print("\nAmigos, encontrei uma mesa maior, vou chamar mais três pessoas!\n")
 
 guest_list.insert(0, "Convidado E")
@@ -27,7 +27,7 @@ print("Olá, gostaria de jantar comigo esta noite, " + guest_list[3] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[4] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[5] + "?")
 
-# Reduzindo a lista de convidados
+# 3.7 Reduzindo a lista de convidados
 print("\nDesculpa pessoal, a mesa não vai chegar a tempo, então só irei chamar duas pessoas.\n")
 
 guest_absent = []
@@ -44,6 +44,9 @@ print(guest_absent)
 
 print("\nOlá, gostaria de jantar comigo esta noite, " + guest_list[0] + "?")
 print("Olá, gostaria de jantar comigo esta noite, " + guest_list[1] + "?\n")
+
+# 3.9 Convidados para o jantar
+print("\nEstou convidando " + str(len(guest_list)) + " pessoas para o jantar esta noite.")
 
 del guest_list[0]
 del guest_list[0]
