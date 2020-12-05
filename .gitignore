@@ -1,0 +1,8 @@
+# Curso Intensivo de Python
+.mypy_cache
+.vscode
+project_euler
+src
+tests
+venv
+
