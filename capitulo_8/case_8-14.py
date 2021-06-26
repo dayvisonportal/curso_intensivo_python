@@ -1,5 +1,5 @@
 def make_car(fabricante, modelo, cor, **opcional):
-    """Constrói um dicionário contendo tudo que sabeos sobre um usuário."""
+    """Constrói um dicionário contendo tudo que sabes sobre um usuário."""
     car = {}
     car['fabricante'] = fabricante
     car['modelo'] = modelo
